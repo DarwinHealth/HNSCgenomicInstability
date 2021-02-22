@@ -1,11 +1,11 @@
-\name{tumor_metadata}
+\name{metadata_tumor}
 \docType{data}
-\alias{tumor_metadata}
+\alias{metadata_tumor}
 \title{Tumor metadata for HNSC scRNAseq 500 cells}
 \description{
 This dataset contains the metadata for the cells classification for GSE103322.
 }
-\usage{tumor_metadata}
+\usage{metadata_tumor}
 \format{A logical vector indicating whether each of the 500 cells are classified as tumor}
 \references{
 Puram SV, Tirosh I, Parikh AS, Patel AP et al. Single-Cell Transcriptomic
