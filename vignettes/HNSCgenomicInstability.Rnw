@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage[hidelinks]{hyperref}
+
+\title{Head and Neck Squamous Carcinoma scRNA-Seq dataset package, required
+for running the code in the vignette of the genomicInstability package}
+\author{Pasquale Liase and Mariano J. Alvarez\\DarwinHealth, Inc.}
+\date{\today}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\maketitle
+
+%-----------
+\section{Overview of HNSCgenomicInstability data package}\label{sec:overview}
+The \emph{HNSCgenomicInstability} data package provides an example dataset
+consisting of 500 cells selected at random from GSE103322.
+
+\paragraph{tpm_matrix}
+Expression profile matrix (TPM) with 23,014 genes (entrezID as rownames) and
+500 cells.
+
+<<echo=TRUE, results=verbatim>>=
+library(HNSCgenomicInstability)
+data(GSE103322)
+dim(tpm_matrix)
+tpm_matrix[1:5, 1:2]
+@
+
+\paragraph{metadata_tumor}
+Logical vector indicating whether each cell was classified as tumor by Puram
+et.al\cite{Puram2017}.
+
+<<echo=TRUE, results=verbatim>>=
+length(metadata_tumor)
+metadata_tumor[1:3]
+@
+
+%-----------
+\begin{thebibliography}{0}
+\bibitem{Puram2017}
+Puram, S. V. et al. Single-Cell Transcriptomic Analysis of Primary and
+Metastatic Tumor Ecosystems in Head and Neck Cancer. Cell 171, 1611--1624
+(2017).
+\end{thebibliography}
+%----------
+\end{document}
