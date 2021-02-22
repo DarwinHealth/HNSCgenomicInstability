@@ -1,6 +1,6 @@
-\name{GSE103322}
+\name{tpm_matrix}
 \docType{data}
-\alias{GSE103322}
+\alias{tpm_matrix}
 \title{HNSC scRNAseq for 500 cells}
 \description{
 This dataset contains 500 cells selected at random from GSE103322.
