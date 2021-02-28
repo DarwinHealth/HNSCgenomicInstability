@@ -1,7 +1,7 @@
 Package: HNSCgenomicInstability
 Type: Package
 Title: Head and Neck Squamous Carcinoma scRNA-Seq dataset
-Version: 0.9.0
+Version: 0.99.0
 Date: 2021-02-21
 Author: Mariano Javier Alvarez
 Maintainer: Mariano Javier Alvarez <malvarez@darwinhealth.com>
@@ -9,6 +9,9 @@ Description: This package provides scRNASeq expression data for a subset of
              500 cells, selected at random from GSE103322.
 License: GPL (>=2)
 Depends: R(>= 3.5.3)
-biocViews: ExperimentData, scRNAseq, Homo_sapiens_Data, CancerData
+biocViews: ExperimentData, RNASeqData, Homo_sapiens_Data, CancerData, SingleCellData
+BiocType: ExperimentData
+URL: https://github.com/DarwinHealth/HNSCgenomicInstability
+BugReports: https://github.com/DarwinHealth/HNSCgenomicInstability
 NeedsCompilation: no
 Encoding: UTF-8
