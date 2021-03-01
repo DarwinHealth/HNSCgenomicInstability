@@ -6,7 +6,8 @@
 This dataset contains the metadata for the cells classification for GSE103322.
 }
 \usage{metadata_tumor}
-\format{A logical vector indicating whether each of the 500 cells are classified as tumor}
+\format{A logical vector indicating whether each of the 500 cells are
+    classified as tumor}
 \references{
 Puram SV, Tirosh I, Parikh AS, Patel AP et al. Single-Cell Transcriptomic
 Analysis of Primary and Metastatic Tumor Ecosystems in Head and Neck Cancer.

@@ -3,13 +3,15 @@ Type: Package
 Title: Head and Neck Squamous Carcinoma scRNA-Seq dataset
 Version: 0.99.0
 Date: 2021-02-21
-Author: Mariano Javier Alvarez
-Maintainer: Mariano Javier Alvarez <malvarez@darwinhealth.com>
+Authors@R: person("Mariano", "Alvarez", role=c("aut", "cre"),
+           email="reef103@gmail.com")
 Description: This package provides scRNASeq expression data for a subset of
              500 cells, selected at random from GSE103322.
+             This data is used in the vignette and examples of package
+             genomicInstability.
 License: GPL (>=2)
-Depends: R(>= 3.5.3)
-biocViews: ExperimentData, RNASeqData, Homo_sapiens_Data, CancerData, SingleCellData
+Depends: R(>= 4.0.0)
+biocViews: ExperimentData, ExpressionData, RNASeqData, Homo_sapiens_Data, CancerData, SingleCellData
 BiocType: ExperimentData
 URL: https://github.com/DarwinHealth/HNSCgenomicInstability
 BugReports: https://github.com/DarwinHealth/HNSCgenomicInstability
