@@ -1,7 +1,7 @@
 Package: HNSCgenomicInstability
 Type: Package
 Title: Head and Neck Squamous Carcinoma scRNA-Seq dataset
-Version: 0.99.0
+Version: 0.99.1
 Date: 2021-02-21
 Authors@R: person("Mariano", "Alvarez", role=c("aut", "cre"),
            email="reef103@gmail.com")
